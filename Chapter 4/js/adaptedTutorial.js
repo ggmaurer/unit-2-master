@@ -1,3 +1,4 @@
+
 const map = L.map('mapid').setView([0, 0], 3);
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -17,7 +18,7 @@ function onEachFeature(feature, layer) {
 };
 
 function getData(){
-    fetch("data/TreeCoverage.geojson")
+    fetch("data/TheBigCities.geojson")
             .then(function(response){
                 return response.json();
             })
