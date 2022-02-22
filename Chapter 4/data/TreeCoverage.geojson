@@ -133,6 +133,158 @@
             2.362221,	10.330607
           ]
         }
-      }  
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Argentina",
+          "Coverage_2014": 29.32,
+          "Coverage_2015": 29.10,
+          "Coverage_2016": 28.99,
+          "Coverage_2017": 28.89,
+          "Coverage_2018": 28.78,
+          "Coverage_2019": 28.68,
+          "Coverage_2020": 28.75
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "China",
+          "Coverage_2014": 208.36,
+          "Coverage_2015": 210.89,
+          "Coverage_2016": 212.23,
+          "Coverage_2017": 214.17,
+          "Coverage_2018": 216.10,
+          "Coverage_2019": 218.04,
+          "Coverage_2020": 219.98
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Democratic Republic of Congo",
+          "Coverage_2014": 132.76,
+          "Coverage_2015": 131.66,
+          "Coverage_2016": 130.56,
+          "Coverage_2017": 129.46,
+          "Coverage_2018": 128.36,
+          "Coverage_2019": 127.26,
+          "Coverage_2020": 126.16
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },        
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "India",
+          "Coverage_2014": 70.56,
+          "Coverage_2015": 70.83,
+          "Coverage_2016": 71.09,
+          "Coverage_2017": 71.36,
+          "Coverage_2018": 71.63,
+          "Coverage_2019": 71.89,
+          "Coverage_2020": 72.16
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Vietnam",
+          "Coverage_2014": 13.93,
+          "Coverage_2015": 14.06,
+          "Coverage_2016": 14.18,
+          "Coverage_2017": 14.29,
+          "Coverage_2018": 14.41,
+          "Coverage_2019": 14.53,
+          "Coverage_2020": 14.64
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Ethiopia",
+          "Coverage_2014": 17.51,
+          "Coverage_2015": 17.43,
+          "Coverage_2016": 17.36,
+          "Coverage_2017": 17.29,
+          "Coverage_2018": 17.21,
+          "Coverage_2019": 17.14,
+          "Coverage_2020": 17.07
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Guatemala",
+          "Coverage_2014": 3.61,
+          "Coverage_2015": 3.59,
+          "Coverage_2016": 3.57,
+          "Coverage_2017": 3.56,
+          "Coverage_2018": 3.55,
+          "Coverage_2019": 3.54,
+          "Coverage_2020": 3.53
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Kenya",
+          "Coverage_2014": 3.54,
+          "Coverage_2015": 3.52,
+          "Coverage_2016": 3.54,
+          "Coverage_2017": 3.56,
+          "Coverage_2018": 3.58,
+          "Coverage_2019": 3.59,
+          "Coverage_2020": 3.61
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.3306
+          ]
+        }
+      }         
     ]
   }
