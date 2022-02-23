@@ -1,7 +1,7 @@
 const map = L.map('mapid').setView([0, 0], 3);
 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
 }).addTo(map);
 
 function onEachFeature(feature, layer) {
@@ -21,7 +21,7 @@ function getData(){
             .then(function(response){
                 return response.json();
             })
-            .then(function(json){
+            /*then(function(json){
                 let geojsonMarkerOptions = {
                     radius: 8,
                     fillColor: "#ff7800",
@@ -37,7 +37,7 @@ function getData(){
                     },
 
                 }).addTo(map);
-            })
+            })*/
             .then(function(json){
                 //create a Leaflet GeoJSON layer and add it to the map
                 L.geoJson(json, {
