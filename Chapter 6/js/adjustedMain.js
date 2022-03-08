@@ -29,6 +29,7 @@ function calculateMinValue(json){
     };
 
     var minValue = Math.min(...allValues)
+    console.log(minValue);
 
     return minValue;
 };
@@ -43,8 +44,63 @@ function calcPropRadius(attValue){
 function pointToLayer(feature, latlng, attributes) {
     var attribute = attributes[0]; 
 
+    if(attValue < 0) {
+
+        attributes = Math.abs(attributes)
+
+        var geojsonMarkerOptions = {
+            fillColor: "#ff0000",
+            color: "#fff",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8,
+            radius: 8
+        };
+    
+        var attValue = Number(feature.properties[attribute]);
+    
+        geojsonMarkerOptions.radius = calcPropRadius(attValue);
+    
+        var layer = L.circleMarker(latlng, geojsonMarkerOptions);
+        var popupContent = "<p><b>Country:</b> " + feature.properties.Country + "</p>";
+        var year = attribute.split("_")[1];
+    
+        popupContent += "<p><b>Tree Coverage in " + year + ":</b> " + feature.properties[attribute] + " million Hectacres</p>";
+    
+        layer.bindPopup(popupContent, {
+            offset: new L.Point(1,-geojsonMarkerOptions.radius) 
+        });
+    
+        return layer;
+    
+    //creates proportiuonal symbols for the values of trees in millions of hectacres
+    function createPropSymbols(json, attributes){
+    
+        L.geoJson(json,{
+            pointToLayer: function(feature, latlng){
+                return pointToLayer(feature, latlng, attributes);
+            } 
+        }).addTo(map);
+    };
+    //processes the data from the TreeCoverage.geojson
+    function processData(json){
+        var attributes = [];
+        var properties = json.features[0].properties;
+    //loop that displays only objects that contain the word coverage in it so that the country name is not included
+        for(var attribute in properties){
+            if(attribute.indexOf("Coverage") > -1){
+                attributes.push(attribute);
+            };
+        };
+    
+        console.log(attributes);
+    
+        return attributes;
+    };
+} 
+    else {
     var geojsonMarkerOptions = {
-        fillColor: "#ff7800",
+        fillColor: "#00ff00",
         color: "#fff",
         weight: 1,
         opacity: 1,
@@ -67,8 +123,8 @@ function pointToLayer(feature, latlng, attributes) {
     });
 
     return layer;
-};
-//creates proportional symbols for the values of trees in millions of hectacres
+
+//creates proportiuonal symbols for the values of trees in millions of hectacres
 function createPropSymbols(json, attributes){
 
     L.geoJson(json,{
@@ -91,6 +147,8 @@ function processData(json){
     console.log(attributes);
 
     return attributes;
+};
+};
 };
 //creates the slide and button functions
 function createSequenceControls(attributes){

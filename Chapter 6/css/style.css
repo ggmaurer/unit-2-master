@@ -1,0 +1,78 @@
+body {
+    margin:0;
+}
+#mapid{
+    height: 600px;
+    width: 70%;
+    display: inline-block;
+}
+#panel {
+    width: 25%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+.sequence-control-container {  
+    width: 425px;  
+    height: 30px;  
+    fill-opacity: 1;
+    background-color: rgba(255,255,255,0.8);  
+    padding: 10px;  
+    line-height: 45px;  
+    text-align: center;  
+    border: solid gray 1px;  
+}  
+
+.range-slider {  
+    width: 300px;  
+}  
+
+.step {  
+    width: 50px;  
+}  
+
+.step img {  
+    width: 100%;
+    height: auto;
+}  
+
+#forward {
+    float: right;
+    }
+
+#reverse {  
+    float: left;  
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+.legend-control-container {
+    width: 155px;
+    height: 250px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.second-legend-control-container {
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container p{
+     margin: 0;
+}

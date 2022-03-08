@@ -1,0 +1,290 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Indonesia",
+          "Coverage_2014": -3.05,
+          "Coverage_2015": -4.05,
+          "Coverage_2016": -4.69,
+          "Coverage_2017": -5.337,
+          "Coverage_2018": -5.992,
+          "Coverage_2019": -6.655,
+          "Coverage_2020": -7.32
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.972332,	-1.003189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Ecuador",
+          "Coverage_2014": -0.311,
+          "Coverage_2015": -0.624,
+          "Coverage_2016": -1.17,
+          "Coverage_2017": -1.65,
+          "Coverage_2018": -2.137,
+          "Coverage_2019": -2.7,
+          "Coverage_2020": -3.2
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.322784,	-1.241567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Ghana",
+          "Coverage_2014": -0.253,
+          "Coverage_2015": -0.38,
+          "Coverage_2016": -0.12,
+          "Coverage_2017": 0.126,
+          "Coverage_2018": 0.377,
+          "Coverage_2019": 0.628,
+          "Coverage_2020": 1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+           -0.982714,	7.85125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Philippines",
+          "Coverage_2014": 0.57,
+          "Coverage_2015": 0.99,
+          "Coverage_2016": 1.56,
+          "Coverage_2017": 1.977,
+          "Coverage_2018": 2.528,
+          "Coverage_2019": 2.93,
+          "Coverage_2020": 2.477
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+           121.387948,	16.932122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Honduras",
+          "Coverage_2014": -0.308,
+          "Coverage_2015": -0.77,
+          "Coverage_2016": -1.086,
+          "Coverage_2017": -1.4,
+          "Coverage_2018": -1.7,
+          "Coverage_2019": -2.037,
+          "Coverage_2020": -2.358
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.920196,	14.762778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "North Korea",
+          "Coverage_2014": -0.324,
+          "Coverage_2015": -0.651,
+          "Coverage_2016": -0.98,
+          "Coverage_2017": -1.477,
+          "Coverage_2018": -1.812,
+          "Coverage_2019": -2.148,
+          "Coverage_2020": -2.487
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+           126.699424,	40.248916
+          ]
+        }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Benin",
+          "Coverage_2014": -1.45,
+          "Coverage_2015": -2.95,
+          "Coverage_2016": -4.49,
+          "Coverage_2017": -6.07,
+          "Coverage_2018": -7.71,
+          "Coverage_2019": -9.404,
+          "Coverage_2020": -11.146
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.362221,	10.330607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Argentina",
+          "Coverage_2014": -0.75,
+          "Coverage_2015": -1.51,
+          "Coverage_2016": -1.89,
+          "Coverage_2017": -2.24,
+          "Coverage_2018": -2.64,
+          "Coverage_2019": -2.99,
+          "Coverage_2020": -2.74
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -64.168459,	-33.528049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "China",
+          "Coverage_2014": 0.931,
+          "Coverage_2015": 2.12,
+          "Coverage_2016": 2.737,
+          "Coverage_2017": 3.618,
+          "Coverage_2018": 4.479,
+          "Coverage_2019": 5.32,
+          "Coverage_2020": 6.164
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.431983, 32.523743	
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Democratic Republic of Congo",
+          "Coverage_2014": -0.828,
+          "Coverage_2015": -1.67,
+          "Coverage_2016": -2.527,
+          "Coverage_2017": -3.39,
+          "Coverage_2018": -4.284,
+          "Coverage_2019": -5.186,
+          "Coverage_2020": -6.10
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.513592, -2.271721	
+          ]
+        }
+      },        
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "India",
+          "Coverage_2014": 0.368,
+          "Coverage_2015": 0.748,
+          "Coverage_2016": 1.111,
+          "Coverage_2017": 1.485,
+          "Coverage_2018": 1.856,
+          "Coverage_2019": 2.211,
+          "Coverage_2020": 2.577
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.132924,	22.412321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Vietnam",
+          "Coverage_2014": 1,
+          "Coverage_2015": 1.92,
+          "Coverage_2016": 2.750,
+          "Coverage_2017": 3.49,
+          "Coverage_2018": 4.3,
+          "Coverage_2019": 5.09,
+          "Coverage_2020": 5.80
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105.396672,	21.732568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Ethiopia",
+          "Coverage_2014": -0.399,
+          "Coverage_2015": -0.860,
+          "Coverage_2016": -1.267,
+          "Coverage_2017": -1.677,
+          "Coverage_2018": -2.149,
+          "Coverage_2019": -2.567,
+          "Coverage_2020": -2.987
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            38.896778,	7.996115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Guatemala",
+          "Coverage_2014": -0.831,
+          "Coverage_2015": -1.392,
+          "Coverage_2016": -1.960,
+          "Coverage_2017": -2.247,
+          "Coverage_2018": -2.535,
+          "Coverage_2019": -2.82,
+          "Coverage_2020": -3.11
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.522408,	14.989397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Kenya",
+          "Coverage_2014": -0.59,
+          "Coverage_2015": -1.164,
+          "Coverage_2016": -0.593,
+          "Coverage_2017": -0.028,
+          "Coverage_2018": 0.53,
+          "Coverage_2019": 0.807,
+          "Coverage_2020": 1.357
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            37.918308,	0.543716
+          ]
+        }
+      }         
+    ]
+  }
